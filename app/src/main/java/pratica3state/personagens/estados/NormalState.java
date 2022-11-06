@@ -11,9 +11,9 @@ import pratica3state.personagens.Personagem;
 public class NormalState implements PersonagemState {
     public static Double HP_MAX = 70.0;
     private Personagem personagem;
-    PularStrategy pularStrategy;
-    AtacarStrategy atacarStrategy;
-    CorrerStrategy correrStrategy;
+    private PularStrategy pularStrategy;
+    private AtacarStrategy atacarStrategy;
+    private CorrerStrategy correrStrategy;
 
     public NormalState(Personagem personagem) {
         this.personagem = personagem;

@@ -11,9 +11,9 @@ import pratica3state.personagens.Personagem;
 public class FracoState implements PersonagemState {
     public static Double HP_MAX = 30.0;
     private Personagem personagem;
-    PularStrategy pularStrategy;
-    AtacarStrategy atacarStrategy;
-    CorrerStrategy correrStrategy;
+    private PularStrategy pularStrategy;
+    private AtacarStrategy atacarStrategy;
+    private CorrerStrategy correrStrategy;
 
     public FracoState(Personagem personagem) {
         this.personagem = personagem;

@@ -3,7 +3,7 @@ package pratica3state.personagens.estados;
 import pratica3state.personagens.Personagem;
 
 public class MortoState implements PersonagemState {
-    Personagem personagem;
+    private Personagem personagem;
 
     public MortoState(Personagem personagem) {
         this.personagem = personagem;
